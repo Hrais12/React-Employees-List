@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  border: solid black;
+  height: 700PX;
+  display: flex;
+  margin: 50px;
+  
 }
 
 .App-logo {
@@ -35,4 +40,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homepage{
+  border: solid peru;
+  width: 50%;
+  margin: 5px;
+}
+.emp_pg{
+  border: solid brown;
+  width: 50%;
+  margin: 5px;
+}
+
+.header{
+
+  border: solid lightblue;
+  height: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.searchbar{
+  border: solid green;
+  padding: 5px;
+}
+#sbar{
+  width: 95%;
+}
+
+.employeeList{
+  border: solid purple;
+  height: 580px;
+}
+.empListItem{
+  border: solid red;
+  height: 60px;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  
+
+}
+p{
+  height: 8px;
+}
+.empContact{
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  border: solid lightgray;
+  margin: 15px;
+  padding: 5px;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  border: solid lightgray;
+  padding: 10px;
+  text-align: left;
+}
+
+button{
+  background-color: white;
+  border: white;
+  font-size:x-large;
+  color: gray;
 }
