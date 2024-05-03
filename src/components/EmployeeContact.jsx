@@ -5,15 +5,15 @@ function EmployeeContact({ selectedEmployee }) {
     <div>
       <div className="empContact">
         <img
-          src={selectedEmployee.info.image}
-          alt={selectedEmployee.info.name}
+          src={selectedEmployee.image}
+          alt={selectedEmployee.name}
           id="empImg"
         />
         <div>
           <p>
-            <strong>{selectedEmployee.info.name}</strong>
+            <strong>{selectedEmployee.name}</strong>
           </p>
-          <p> {selectedEmployee.info.position}</p>
+          <p> {selectedEmployee.position}</p>
         </div>
       </div>
       <div className="info">
@@ -30,7 +30,7 @@ function EmployeeContact({ selectedEmployee }) {
           <p>
             <strong>Mobile</strong>
           </p>
-          <p> {selectedEmployee.info.mobile}</p>
+          <p> {selectedEmployee.mobile}</p>
         </div>
         <button></button>
       </div>
@@ -48,7 +48,7 @@ function EmployeeContact({ selectedEmployee }) {
           <p>
             <strong>Email</strong>
           </p>
-          <p> {selectedEmployee.info.email}</p>
+          <p> {selectedEmployee.email}</p>
         </div>
         <button></button>
       </div>

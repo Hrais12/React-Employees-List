@@ -9,7 +9,10 @@ function Homepage({ title, workers, setSelectedEmployee }) {
       Homepage
       <Header topic={title} />
       <Searchbar />
-      <EmployeeList staff={workers} setSelectedEmployee={setSelectedEmployee} />
+      <EmployeeList
+        workers={workers}
+        setSelectedEmployee={setSelectedEmployee}
+      />
     </div>
   );
 }

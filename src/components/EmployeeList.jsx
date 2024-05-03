@@ -1,10 +1,10 @@
 import React from "react";
 import EmployeeListItem from "./EmployeeListItem";
 
-function EmployeeList({ staff, setSelectedEmployee }) {
+function EmployeeList({ workers, setSelectedEmployee }) {
   return (
     <div className="employeeList">
-      {staff.map((worker, index) => {
+      {workers.map((worker, index) => {
         return (
           <EmployeeListItem
             key={index}

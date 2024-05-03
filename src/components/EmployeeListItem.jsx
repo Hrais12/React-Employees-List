@@ -2,7 +2,7 @@ import React from "react";
 
 function EmployeeListItem({ info, setSelectedEmployee }) {
   function changeEmployee() {
-    setSelectedEmployee({ info });
+    setSelectedEmployee(info);
   }
 
   return (
