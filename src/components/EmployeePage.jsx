@@ -1,18 +1,15 @@
-import React from 'react'
-import Header from './Header';
-import EmployeeContact from './EmployeeContact';
+import React from "react";
+import Header from "./Header";
+import EmployeeContact from "./EmployeeContact";
 
-
-function EmployeePage({title}) {
+function EmployeePage({ title, selectedEmployee }) {
   return (
-    <div className='emp_pg'>
-
-        EmployeePage
-        <Header topic={title}/>
-       
-         <EmployeeContact/>
+    <div className="emp_pg">
+      EmployeePage
+      <Header topic={title} />
+      <EmployeeContact selectedEmployee={selectedEmployee} />
     </div>
-  )
+  );
 }
 
-export default EmployeePage
+export default EmployeePage;
